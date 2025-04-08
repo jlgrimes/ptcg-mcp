@@ -338,12 +338,7 @@ server.tool(
           type: 'text',
           text: JSON.stringify({
             total: result.totalCount,
-            cards: result.data.map(card => ({
-              type: 'image',
-              image: card.images.large,
-              alt: card.name,
-              caption: `${card.name} (${card.set.name})`,
-            })),
+            cards: result.data,
           }),
         },
       ],
