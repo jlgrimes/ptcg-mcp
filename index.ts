@@ -336,10 +336,7 @@ server.tool(
       content: [
         {
           type: 'text',
-          text: JSON.stringify({
-            total: result.totalCount,
-            cards: result.data,
-          }),
+          text: JSON.stringify(result),
         },
       ],
     };
