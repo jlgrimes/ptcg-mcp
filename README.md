@@ -1,8 +1,20 @@
 # Pokemon TCG Card Search MCP
 
+[![smithery badge](https://smithery.ai/badge/@jlgrimes/ptcg-mcp)](https://smithery.ai/server/@jlgrimes/ptcg-mcp)
+
 This Model Context Protocol (MCP) server allows Claude to search and display Pokemon Trading Card Game cards.
 
 ## Setup Instructions
+
+### Installing via Smithery
+
+To install Pokemon TCG Card Search for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jlgrimes/ptcg-mcp):
+
+```bash
+npx -y @smithery/cli install @jlgrimes/ptcg-mcp --client claude
+```
+
+### Manual Installation
 
 1. Update your Claude configuration file:
 
