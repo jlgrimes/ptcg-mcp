@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/jlgrimes-ptcg-mcp-badge.png)](https://mseep.ai/app/jlgrimes-ptcg-mcp)
+
 # Pokemon TCG Card Search MCP
 
 This Model Context Protocol (MCP) server allows Claude to search and display Pokemon Trading Card Game cards.
